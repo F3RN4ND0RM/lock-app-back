@@ -1,0 +1,21 @@
+{
+  "name": "lock-app-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/gapi": "^0.0.47",
+    "@types/gapi.auth2": "^0.0.61",
+    "@types/gapi.client.drive": "^3.0.15",
+    "axios": "^1.7.7",
+    "express": "^4.21.1",
+    "googleapis": "^144.0.0",
+    "save": "^2.9.0"
+  }
+}

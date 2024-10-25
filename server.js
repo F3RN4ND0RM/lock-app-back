@@ -1,10 +1,13 @@
 const express = require("express");
 const axios = require("axios");
 const crypto = require("crypto");
+const cors = require("cors"); // Importa el paquete cors
 
 const app = express();
 const PORT = 3000;
 
+
+app.use(cors())
 app.use(express.json()); // Para manejar JSON en el body de las solicitudes
 
 // Función para verificar vulnerabilidad de contraseña
